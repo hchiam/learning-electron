@@ -38,3 +38,7 @@ npm start
 ## Electron with Vue
 
 <https://github.com/SimulatedGREG/electron-vue>
+
+## Electron with Angular
+
+<https://github.com/maximegris/angular-electron>
