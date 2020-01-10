@@ -29,19 +29,24 @@ npm start
 
 <https://electronjs.org/community#boilerplates>
 
-## Electron with React
+## Boilerplates
+
+### Electron with React
 
 <https://www.freecodecamp.org/news/building-an-electron-application-with-create-react-app-97945861647c/>
+
+* src/`electron-starter.js`: `mainWindow`, `createWindow`, and `app.on` event listeners
+* src/`index.js` -> `App` from `App.js` -> `render()`
 
 <https://github.com/electron-react-boilerplate/electron-react-boilerplate>
 
 * app/`main.dev.js`: `mainWindow`, `createWindow`, and `app.on` event listeners
 * app/`index.js` -> `Root` from app/containers/`Root.js` -> `Routes` from app/`Routes.js` -> containers/`HomePage.js`, containers/`CounterPage.js`, app/containers/`App.js` -> app/components/`Home.js`, app/components/`Counter.js`, app/actions/`counter.js`
 
-## Electron with Vue
+### Electron with Vue
 
 <https://github.com/SimulatedGREG/electron-vue>
 
-## Electron with Angular
+### Electron with Angular
 
 <https://github.com/maximegris/angular-electron>
