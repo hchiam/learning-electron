@@ -1,7 +1,7 @@
 /* global $ */
 const csv = require('papaparse')
 
-// Run this function after the page has loaded
+// after page loaded:
 $(() => {
   let url
   const stocks = {
@@ -13,11 +13,12 @@ $(() => {
   for (let symbol in stocks) {
     url = `https://stooq.com/q/l/?s=${stocks[symbol]}&f=sd2t2ohlc&h&e=csv`
 
+    // parse the CSV output of the URL response:
     csv.parse(url, {
       download: true,
       delimiter: ',',
       complete: (results) => {
-        // price data is the second array, first is headers
+        // console.log(results);
         const prices = results.data[1]
         const previousPrice = parseFloat(prices[3], 10)
         const currentPrice = parseFloat(prices[6], 10)
