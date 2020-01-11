@@ -12,4 +12,12 @@ npm install
 npm start
 ```
 
+Or if you prefer `yarn` instead:
+
+```bash
+cd prices-example
+yarn
+yarn start
+```
+
 It'll make calls to the URL `https://stooq.com/q/l/?s=${stocks[symbol]}&f=sd2t2ohlc&h&e=csv` to get the response data (see `window.js` for details).

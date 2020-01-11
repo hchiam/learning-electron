@@ -12,6 +12,24 @@ Main code flow: `main.js` -> `index.html` -> `renderer.js`
 - `main.js` - Starts app and creates browser window to render HTML. The app's **main process**.
 - `index.html` - Web page to render. The app's **renderer process**.
 
+## Main simple example
+
+```bash
+npm install
+npm start
+```
+
+Or if you prefer `yarn` instead:
+
+```bash
+yarn
+yarn start
+```
+
+## Another simple example to learn from
+
+[Prices example (API calls)](https://github.com/hchiam/learning-electron/tree/master/prices-example) in the `prices-example` folder.
+
 ## Quick start from the `electron-quick-start` template
 
 ```bash
@@ -20,10 +38,6 @@ cd electron-quick-start
 npm install
 npm start
 ```
-
-## Another simple example to learn from
-
-[Prices example (API calls)](https://github.com/hchiam/learning-electron/tree/master/prices-example)
 
 ## General links to learn from
 
