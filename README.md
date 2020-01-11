@@ -6,7 +6,7 @@ Electron lets you build native desktop apps with web technologies (JS, HTML, CSS
 
 Main code flow: `main.js` -> `index.html` -> `renderer.js`
 
-## Minimum files:
+## Minimum files
 
 - `package.json` - Points to app's main file and lists details and dependencies.
 - `main.js` - Starts app and creates browser window to render HTML. The app's **main process**.
