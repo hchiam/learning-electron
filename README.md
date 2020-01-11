@@ -27,6 +27,8 @@ npm start
 
 <https://github.com/electron/electron-api-demos/releases>
 
+<https://github.com/electron/simple-samples>
+
 <https://electronjs.org/community#boilerplates>
 
 ## Boilerplates
