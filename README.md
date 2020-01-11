@@ -4,6 +4,8 @@ Just one of the things I'm learning. https://github.com/hchiam/learning
 
 Electron lets you build native desktop apps with web technologies (JS, HTML, CSS, Node.js, etc).
 
+Main code flow: `main.js` -> `index.html` -> `renderer.js`
+
 ## Minimum files:
 
 - `package.json` - Points to app's main file and lists details and dependencies.
