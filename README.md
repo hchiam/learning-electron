@@ -21,13 +21,17 @@ npm install
 npm start
 ```
 
+## Another simple example to learn from
+
+[Prices example (API calls)](https://github.com/hchiam/learning-electron/tree/master/prices-example)
+
 ## General links to learn from
 
 <https://github.com/electron/electron-quick-start>
 
 <https://electronjs.org/docs/tutorial/first-app>
 
-<https://github.com/electron/electron-api-demos/releases>
+<https://github.com/electron/electron-api-demos>
 
 <https://github.com/electron/simple-samples>
 
