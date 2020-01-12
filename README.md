@@ -41,6 +41,10 @@ npm install
 npm start
 ```
 
+## My example that uses Travis CI automated testing
+
+<https://github.com/hchiam/anonymous-input>
+
 ## General links to learn from
 
 <https://github.com/electron/electron-quick-start>
