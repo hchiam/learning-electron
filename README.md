@@ -26,9 +26,11 @@ yarn
 yarn start
 ```
 
-## Another simple example to learn from
+## Other simple examples to learn from
 
 [Prices example (API calls)](https://github.com/hchiam/learning-electron/tree/master/prices-example) in the `prices-example` folder.
+
+<https://github.com/hchiam/electron-test>
 
 ## Quick start from the `electron-quick-start` template
 
